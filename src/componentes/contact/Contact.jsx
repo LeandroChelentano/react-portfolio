@@ -52,7 +52,7 @@ export default function Contact() {
               color: scheme.text,
             }}
           >
-            personal@leandrochelentano.com
+            chelentanoleandro@gmail.com
           </div>
           <div
             className="px-4 py-2 md:border-l-2 border-gray-600 flex justify-center items-center cursor-pointer transition-colors md:rounded-r-md"
