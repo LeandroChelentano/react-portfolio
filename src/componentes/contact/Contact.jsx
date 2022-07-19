@@ -12,7 +12,7 @@ export default function Contact() {
 
   const copy = () => {
     setCopied(true);
-    navigator.clipboard.writeText("personal@leandrochelentano.com");
+    navigator.clipboard.writeText("chelentanoleandro@gmail.com");
   };
 
   document.title = `L.CH. - ${languaje === "es" ? "Contacto" : "Contact"}`;
