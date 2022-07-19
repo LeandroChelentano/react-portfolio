@@ -20,6 +20,26 @@ export const projects = {
       images: ["1-0.png", "1-1.png", "1-2.png"],
       git: "https://github.com/LeandroChelentano/Travel4Life",
     },
+    {
+      id: 2,
+      title: "Aplicacion movil para administación de mecanica",
+      description:
+        "Aplicacion desarollada en React Native con Expo para la gestión de una mecanica, con base de datos en SQLite.",
+      date: "13/07/2022",
+      tech: ["React Native", "SQLite"],
+      images: ["2-0.png", "2-1.png", "2-2.png"],
+      git: "https://github.com/LeandroChelentano/react-native-gestion-mecanica",
+    },
+    {
+      id: 3,
+      title: "Programa web para taller mecanico avanzado",
+      description:
+        "Aplicacion desarollada en ASP.NET con C# y base de datos en SQL Server.",
+      date: "08/07/2022",
+      tech: ["C#", "SQL Server"],
+      images: ["3-0.png", "3-1.png", "3-2.png"],
+      git: "https://github.com/LeandroChelentano/Obligatorio-Prog3",
+    },
   ],
   en: [
     {
@@ -41,6 +61,26 @@ export const projects = {
       tech: ["React", "NodeJS", "Styled Components"],
       images: ["1-0.png", "1-1.png", "1-2.png"],
       git: "https://github.com/LeandroChelentano/Travel4Life",
+    },
+    {
+      id: 2,
+      title: "Car Treatment Center - Mobile",
+      description:
+        "App developed on React Native w/ Expo in order to manage car reparations, local database using SQLite.",
+      date: "13/07/2022",
+      tech: ["React Native", "SQLite"],
+      images: ["2-0.png", "2-1.png", "2-2.png"],
+      git: "https://github.com/LeandroChelentano/react-native-gestion-mecanica",
+    },
+    {
+      id: 3,
+      title: "Web app for an advanced car treatment center management",
+      description:
+        "Web aplication developed using ASP.NET w/ C# and an SQL Server database.",
+      date: "08/07/2022",
+      tech: ["C#", "SQL Server"],
+      images: ["3-0.png", "3-1.png", "3-2.png"],
+      git: "https://github.com/LeandroChelentano/Obligatorio-Prog3",
     },
   ],
 };

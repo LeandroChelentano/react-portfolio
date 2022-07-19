@@ -4,12 +4,13 @@ import { projects } from "../../proyects";
 import Tech from "./Tech";
 import { useParams } from "react-router-dom";
 import { FaGithub, FaNodeJs } from "react-icons/fa";
-import { DiReact } from "react-icons/di";
+import { DiReact, DiSqllite } from "react-icons/di";
 import { BsWindows } from "react-icons/bs";
 import {
   SiStyledcomponents,
   SiCsharp,
   SiMicrosoftsqlserver,
+  SiNativescript,
 } from "react-icons/si";
 
 export default function Specific() {
@@ -141,6 +142,26 @@ export default function Specific() {
                   color="#c6000b"
                 />
               );
+
+            if (t === "React Native")
+              return (
+                <Tech
+                  key={t}
+                  icon={<SiNativescript className="text-xl" />}
+                  value={t}
+                  color="#2596be"
+                />
+              );
+
+            if (t === "SQLite")
+              return (
+                <Tech
+                  key={t}
+                  icon={<DiSqllite className="text-xl" />}
+                  value={t}
+                  color="#7CBEEC"
+                />
+              );
           })}
         </div>
         <img
@@ -161,9 +182,12 @@ export default function Specific() {
             );
           })}
         </div>
-        <div className="flex justify-center items-center w-full">
+        <div
+          className="flex justify-center items-center w-full"
+          // onClick={() => window.open(`${project.git}`, "_blank")}
+        >
           <a
-            href={project.git}
+            href={project.es.git}
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-row justify-center items-center gap-2 m-4"
